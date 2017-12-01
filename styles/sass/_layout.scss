@@ -1,0 +1,38 @@
+@include break(tablet) {
+	.hero {
+		.vertical-align-middle {padding-top: 0;}
+	}
+	
+	.page1 {
+		.container {
+			.gutter {
+				width: 100%;
+				margin-left: 0;
+				margin-top: 60px;
+				.input-box-45 {
+					input {padding: 0;}
+				}
+				}
+			}
+	}
+	
+	.btn-submit, .btn-submit-002 {
+		width: 100%;
+		margin: 20px 0;
+    }
+}
+
+@include break(v-tablet) {
+	#pageResult2 {
+		.container {
+			.gutter {
+				width: 100%;
+				margin-left: 0;
+				.btn-start-over {
+					width: 100%;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

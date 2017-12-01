@@ -1,0 +1,55 @@
+// !GLOBAL COLORS
+$black: #333333;
+$red: #BE1742;
+$trans-red: rgba(190, 23, 66, .9);
+$blue: #0078ad;
+$dark-blue: #00557A;
+$yellow: #ffd33f;
+$green: #0d474e;
+
+$dark-grey: #303030;
+$nav-grey: #404042;
+$grey: #746e65;
+$middle-grey: #cbcaca;
+$light-grey: #F6F6F6;
+$cool-grey: whitesmoke;
+$white: #fff;
+
+
+$cream: #f7f0da;
+$c-primary: $blue;
+$c-secondary: $green;
+$c-tertiary: #1a9eae;
+$c-accent: #1a9eae;
+$c-footer: #3a3332;
+$c-shadows: #9d646b;
+
+$facebook: #3f5c99;
+$twitter: #55acee;
+
+// !BORDER RADIUS
+$b-radius: 2px;
+
+// !GENERIC SPEED VARIABLE
+$speed: 1500ms;
+
+// !GRID SETTINGS
+// !GLOBAL RESPONSIVE VARIABLES
+$desk: 1150px;
+$tablet: 1150px; // This number needs to be the same as $desk to prevent a "no-mans-land" in breakpoints
+$v-tablet: 855px;
+$mobile: 660px;
+$v-mobile: 500px;
+$sm-mobile: 500px;
+
+// !GLOBAL GUTTER VARIABLES
+//column gutter variables we now how four options if using gutter space
+$gut-no: 0;
+$gut-sm: 2;
+$gut-med: 5;
+$gut-lg: 20;
+
+// !PADDING VARIABLES
+$wrap-pad: 6%;
+
+$img-base-path: "../../images/";

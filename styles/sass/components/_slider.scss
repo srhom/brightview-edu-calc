@@ -1,0 +1,106 @@
+.slick-prev:before, .slick-next:before {
+	font-family:'FontAwesome';
+	color:black;
+}
+
+.slick-prev:before {content: '\f104';}
+.slick-next:before {content: '\f105';}
+
+.slideshow {
+	height: 771px;
+	background-color: black;
+	
+	@include break(tablet) {height: 600px;}
+	@include break(v-tablet) {height: 437px;}
+	@include break(mobile) {height: 570px;}
+	@include break(v-mobile) {height: 500px;}
+	.slick-slide {
+		@include break(mobile) {
+			img {-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))};
+			}
+	}
+	
+	.slick-prev,
+	.slick-next  {		  
+		height: 87px;
+		width: 34px;
+		background: rgba(255, 255, 255, 0.5);
+		@include transitions();
+		@include break(v-tablet) {top: 40%;}
+		@include break(mobile) {top: 30%;}
+		&:hover {
+			@extend slick-prev;
+			background: rgba(255, 255, 255, 0.8);
+		}
+		}
+	.slick-prev {
+		left: 0;
+	}
+	.slick-next {
+		right:0;
+	}
+	.inner-slider {
+		position: relative;
+		top: -350px;
+		left: 50px;
+		@include break(v-tablet) {top: -280px;}
+		@include break(mobile) {
+			top: -45px;
+			left: 0;
+			text-align: center;
+			width: 100%;
+			}
+		img {
+			margin-bottom: .5em;
+			@include break(v-tablet) {display: block;}
+			@include break(mobile) {
+				margin: 0 auto;
+				@include break(mobile) {
+					-webkit-mask-image: -webkit-gradient(linear, left 0%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+					};
+				}
+			}
+		h3 {  
+		  color: white;
+		  font-weight: 600;
+		  font-size: 4em;
+		  font-family: $f-primary;
+		  text-transform: uppercase;
+		  	@include break(tablet) {font-size: 3em;}
+		  	@include break(v-tablet) {font-size: 2.5em;}
+		  	@include break(mobile) {
+			  	  margin-top: .25em;
+			  	  font-size: 3em;
+			  	}
+  		}
+  		a {
+	  	  background: $red;
+		  padding: 10px 16px;
+		  color: white;
+		  font-family: $f-primary;
+		  text-decoration: none;
+		  font-weight: 400;
+		  @include transitions();
+		  		&:hover {
+				background-color: darken($red, 10%);
+				}
+  		}
+  	}	
+}
+
+.sponsors {
+	height: 170px;
+	.slick-prev {
+		left: 15px;
+	}
+	.slick-next {
+		right: 15px;
+	}
+	.slick-list {top:15%;}
+	img {
+		margin: 0 auto;
+		width: 65%;
+		//height: initial;
+		}
+}
+

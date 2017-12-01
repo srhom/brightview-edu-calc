@@ -1,0 +1,93 @@
+@import
+"variables",
+"typography",
+//"lib/normalize",
+"lib/SASSGrid",
+"lib/SASSMixins",
+"lib/SASSFlex",
+//"lib/font-awesome-4.3.0/scss/font-awesome",
+//"../../js/lib/codrops/css/component.css",
+//"../../js/lib/slick/slick",
+//"../../js/lib/slick/slick-theme",
+"components/slider",
+//"components/accordion",
+"components/animation",
+"components/mobile_menu",
+"layout"
+;
+
+/*
+STYLING GUIDELINES
+
+* Very little or no styling should be placed in this file. *
+
+Please place styling in its appropriate location. We have partials
+defined for most commom elements and stying should be organized as
+such.
+
+Take care to make sure not to repeat any styling declarations
+unless absolutely necessary. For example, if you have multiple
+elements that have a background-color: white then create a multi-
+class selector that takes all of those elements and groups them
+together into one style declaration/selector. For example:
+
+.btn-white,
+.bg-white,
+.random_selector,
+.header-top {
+  background-color: white;
+}
+
+Please note that we're using Bourbon and Bitters for styling
+elements, but we're using SASSGrid for all grid layouts.
+
+* _extends.scss *
+This is a place to define commonly used attributes so they can be
+easily reused in other places using an @extend call. They should
+be prefixed with a % so they are easily recognizable.
+
+* _calls.scss *
+This is where we define HIGHLY reused properties. Examples include
+any selectors that have a position attribute, clearfix, display
+block, display inline-block, etc.
+
+* _backgrounds.scss *
+All background-color or background-image attributes and any other
+background related selectors should all be housed here.
+
+* _borders.scss *
+All border declarations should be defined here. Remember to attach
+multiple selectors to the same style declaration and setup any
+helpful variables to ensure consistant borders throughout the site.
+
+* _typography.scss *
+All typography-related styling should be here including font-family,
+font-weight, font-style, line-height, color, etc.
+
+* _z-index.scss *
+Pretty self explanatory. This is where we'll store all z-index
+properties. This will make it much easier to track down any layer
+ordering issues that we come across.
+
+* _layout.scss *
+Any and all layout-related styling should be placed here. This
+includes, but is not limited to columns/grid elements, margin,
+padding, display, etc. We'll also be using this partial to store
+all z-index properties.
+
+* components/_*.scss *
+These partials are used to store styling for specific elements of the
+design. Examples include buttons, header, footer but the main
+emphasis is on items that are commonly repeated throughout the
+interface. We should be, whenever possible, trying to find a way to
+reuse styles instead of defining new, custom declarations for
+elements.
+
+* _effects.scss *
+The effects partial is where we'll store things like drop shadows,
+text shadows, border-radius', opacity settings (though background
+transparency should be stored in the backgrounds partial) and other
+css "effects". Again, selectors should be added to existing style
+declarations whenever possible instead of creating new declarations.
+
+*/

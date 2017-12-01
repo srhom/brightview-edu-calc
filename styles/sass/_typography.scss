@@ -1,0 +1,13 @@
+$f-primary:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$f-secondary:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../../js/lib/slick/fonts/slick.eot');
+    src: url('../../js/lib/slick/fonts/slick.eot?#iefix') format('embedded-opentype'), url('../../js/lib/slick/fonts/slick.woff') format('woff'), url('../../js/lib/slick/fonts/slick.ttf') format('truetype'), url('../../js/lib/slick/fonts/slick.svg#slick') format('svg');
+}

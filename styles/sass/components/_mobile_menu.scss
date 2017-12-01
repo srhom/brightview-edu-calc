@@ -1,0 +1,17 @@
+.slicknav_menu {
+		display:none;
+	}
+
+@include break (v-tablet) {/* #menu is the original menu */
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+	
+
+
+

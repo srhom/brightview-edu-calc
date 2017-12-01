@@ -1,0 +1,227 @@
+/* Icons */
+@font-face { font-family: 'slick'; font-weight: normal; font-style: normal; src: url("../../js/lib/slick/fonts/slick.eot"); src: url("../../js/lib/slick/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../../js/lib/slick/fonts/slick.woff") format("woff"), url("../../js/lib/slick/fonts/slick.ttf") format("truetype"), url("../../js/lib/slick/fonts/slick.svg#slick") format("svg"); }
+
+/* &:before { content: ""; display: block; @include triangle(up,white,10,10); }
+*/
+/* line 1, ../sass/components/_slider.scss */
+.slick-prev:before, .slick-next:before { font-family: 'FontAwesome'; color: black; }
+
+/* line 6, ../sass/components/_slider.scss */
+.slick-prev:before { content: '\f104'; }
+
+/* line 7, ../sass/components/_slider.scss */
+.slick-next:before { content: '\f105'; }
+
+/* line 9, ../sass/components/_slider.scss */
+.slideshow { height: 771px; background-color: black; }
+@media only screen and (max-width: 1150px) { /* line 9, ../sass/components/_slider.scss */
+  .slideshow { height: 600px; } }
+@media only screen and (max-width: 855px) { /* line 9, ../sass/components/_slider.scss */
+  .slideshow { height: 437px; } }
+@media only screen and (max-width: 660px) { /* line 9, ../sass/components/_slider.scss */
+  .slideshow { height: 570px; } }
+@media only screen and (max-width: 500px) { /* line 9, ../sass/components/_slider.scss */
+  .slideshow { height: 500px; } }
+@media only screen and (max-width: 660px) { /* line 19, ../sass/components/_slider.scss */
+  .slideshow .slick-slide img { -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(black), to(rgba(0, 0, 0, 0))); } }
+/* line 24, ../sass/components/_slider.scss */
+.slideshow .slick-prev, .slideshow .slick-next { height: 87px; width: 34px; background: rgba(255, 255, 255, 0.5); -webkit-backface-visibility: hidden; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-delay: 0; -moz-transition-delay: 0; -o-transition-delay: 0; transition-delay: 0; -webkit-transform: translateZ(0px); -webkit-font-smoothing: subpixel-antialiased; }
+@media only screen and (max-width: 855px) { /* line 24, ../sass/components/_slider.scss */
+  .slideshow .slick-prev, .slideshow .slick-next { top: 40%; } }
+@media only screen and (max-width: 660px) { /* line 24, ../sass/components/_slider.scss */
+  .slideshow .slick-prev, .slideshow .slick-next { top: 30%; } }
+/* line 31, ../sass/components/_slider.scss */
+.slideshow .slick-prev:hover, .slideshow .slick-next:hover { background: rgba(255, 255, 255, 0.8); }
+/* line 36, ../sass/components/_slider.scss */
+.slideshow .slick-prev { left: 0; }
+/* line 39, ../sass/components/_slider.scss */
+.slideshow .slick-next { right: 0; }
+/* line 42, ../sass/components/_slider.scss */
+.slideshow .inner-slider { position: relative; top: -350px; left: 50px; }
+@media only screen and (max-width: 855px) { /* line 42, ../sass/components/_slider.scss */
+  .slideshow .inner-slider { top: -280px; } }
+@media only screen and (max-width: 660px) { /* line 42, ../sass/components/_slider.scss */
+  .slideshow .inner-slider { top: -45px; left: 0; text-align: center; width: 100%; } }
+/* line 53, ../sass/components/_slider.scss */
+.slideshow .inner-slider img { margin-bottom: .5em; }
+@media only screen and (max-width: 855px) { /* line 53, ../sass/components/_slider.scss */
+  .slideshow .inner-slider img { display: block; } }
+@media only screen and (max-width: 660px) { /* line 53, ../sass/components/_slider.scss */
+  .slideshow .inner-slider img { margin: 0 auto; } }
+@media only screen and (max-width: 660px) and (max-width: 660px) { /* line 53, ../sass/components/_slider.scss */
+  .slideshow .inner-slider img { -webkit-mask-image: -webkit-gradient(linear, left 0%, left bottom, from(black), to(black)); } }
+/* line 63, ../sass/components/_slider.scss */
+.slideshow .inner-slider h3 { color: white; font-weight: 600; font-size: 4em; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; text-transform: uppercase; }
+@media only screen and (max-width: 1150px) { /* line 63, ../sass/components/_slider.scss */
+  .slideshow .inner-slider h3 { font-size: 3em; } }
+@media only screen and (max-width: 855px) { /* line 63, ../sass/components/_slider.scss */
+  .slideshow .inner-slider h3 { font-size: 2.5em; } }
+@media only screen and (max-width: 660px) { /* line 63, ../sass/components/_slider.scss */
+  .slideshow .inner-slider h3 { margin-top: .25em; font-size: 3em; } }
+/* line 76, ../sass/components/_slider.scss */
+.slideshow .inner-slider a { background: #be1742; padding: 10px 16px; color: white; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; text-decoration: none; font-weight: 400; -webkit-backface-visibility: hidden; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-delay: 0; -moz-transition-delay: 0; -o-transition-delay: 0; transition-delay: 0; -webkit-transform: translateZ(0px); -webkit-font-smoothing: subpixel-antialiased; }
+/* line 84, ../sass/components/_slider.scss */
+.slideshow .inner-slider a:hover { background-color: #911132; }
+
+/* line 91, ../sass/components/_slider.scss */
+.sponsors { height: 170px; }
+/* line 93, ../sass/components/_slider.scss */
+.sponsors .slick-prev { left: 15px; }
+/* line 96, ../sass/components/_slider.scss */
+.sponsors .slick-next { right: 15px; }
+/* line 99, ../sass/components/_slider.scss */
+.sponsors .slick-list { top: 15%; }
+/* line 100, ../sass/components/_slider.scss */
+.sponsors img { margin: 0 auto; width: 65%; }
+
+@-webkit-keyframes bounce { /* line 24, ../sass/components/_animation.scss */
+  0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); -moz-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+  /* line 27, ../sass/components/_animation.scss */
+  40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -o-transform: translateY(-30px); transform: translateY(-30px); }
+  /* line 30, ../sass/components/_animation.scss */
+  60% { -webkit-transform: translateY(-15px); -moz-transform: translateY(-15px); -o-transform: translateY(-15px); transform: translateY(-15px); } }
+
+@-moz-keyframes bounce { /* line 24, ../sass/components/_animation.scss */
+  0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); -moz-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+  /* line 27, ../sass/components/_animation.scss */
+  40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -o-transform: translateY(-30px); transform: translateY(-30px); }
+  /* line 30, ../sass/components/_animation.scss */
+  60% { -webkit-transform: translateY(-15px); -moz-transform: translateY(-15px); -o-transform: translateY(-15px); transform: translateY(-15px); } }
+
+@-ms-keyframes bounce { /* line 24, ../sass/components/_animation.scss */
+  0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); -moz-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+  /* line 27, ../sass/components/_animation.scss */
+  40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -o-transform: translateY(-30px); transform: translateY(-30px); }
+  /* line 30, ../sass/components/_animation.scss */
+  60% { -webkit-transform: translateY(-15px); -moz-transform: translateY(-15px); -o-transform: translateY(-15px); transform: translateY(-15px); } }
+
+@keyframes bounce { /* line 24, ../sass/components/_animation.scss */
+  0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); -moz-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+  /* line 27, ../sass/components/_animation.scss */
+  40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -o-transform: translateY(-30px); transform: translateY(-30px); }
+  /* line 30, ../sass/components/_animation.scss */
+  60% { -webkit-transform: translateY(-15px); -moz-transform: translateY(-15px); -o-transform: translateY(-15px); transform: translateY(-15px); } }
+
+@-webkit-keyframes fadeIn { /* line 37, ../sass/components/_animation.scss */
+  from { opacity: 0; }
+  /* line 38, ../sass/components/_animation.scss */
+  to { opacity: 1; } }
+
+@-moz-keyframes fadeIn { /* line 37, ../sass/components/_animation.scss */
+  from { opacity: 0; }
+  /* line 38, ../sass/components/_animation.scss */
+  to { opacity: 1; } }
+
+@-ms-keyframes fadeIn { /* line 37, ../sass/components/_animation.scss */
+  from { opacity: 0; }
+  /* line 38, ../sass/components/_animation.scss */
+  to { opacity: 1; } }
+
+@keyframes fadeIn { /* line 37, ../sass/components/_animation.scss */
+  from { opacity: 0; }
+  /* line 38, ../sass/components/_animation.scss */
+  to { opacity: 1; } }
+
+/* line 42, ../sass/components/_animation.scss */
+.arrow { position: fixed; left: 50%; margin-left: -25px; width: 50px; height: 50px; text-align: center; font-size: 4rem; color: white; background-size: contain; }
+
+/* line 60, ../sass/components/_animation.scss */
+.bounce { -webkit-animation: bounce 2s infinite ease; -moz-animation: bounce 2s infinite ease; -ms-animation: bounce 2s infinite ease; animation: bounce 2s infinite ease; }
+
+/* line 64, ../sass/components/_animation.scss */
+.fade-in { -webkit-animation: fadeIn 1s; -moz-animation: fadeIn 1s; -ms-animation: fadeIn 1s; animation: fadeIn 1s; }
+
+/* line 1, ../sass/components/_mobile_menu.scss */
+.slicknav_menu { display: none; }
+
+@media only screen and (max-width: 855px) { /* #menu is the original menu */
+  /* line 6, ../sass/components/_mobile_menu.scss */
+  .js #menu { display: none; }
+  /* line 10, ../sass/components/_mobile_menu.scss */
+  .js .slicknav_menu { display: block; } }
+@media only screen and (max-width: 1150px) { /* line 3, ../sass/_layout.scss */
+  .hero .vertical-align-middle { padding-top: 0; }
+  /* line 8, ../sass/_layout.scss */
+  .page1 .container .gutter { width: 100%; margin-left: 0; margin-top: 60px; }
+  /* line 13, ../sass/_layout.scss */
+  .page1 .container .gutter .input-box-45 input { padding: 0; }
+  /* line 19, ../sass/_layout.scss */
+  .btn-submit, .btn-submit-002 { width: 100%; margin: 20px 0; } }
+@media only screen and (max-width: 855px) { /* line 28, ../sass/_layout.scss */
+  #pageResult2 .container .gutter { width: 100%; margin-left: 0; }
+  /* line 31, ../sass/_layout.scss */
+  #pageResult2 .container .gutter .btn-start-over { width: 100%; margin-left: 0; } }
+/*
+STYLING GUIDELINES
+
+* Very little or no styling should be placed in this file. *
+
+Please place styling in its appropriate location. We have partials
+defined for most commom elements and stying should be organized as
+such.
+
+Take care to make sure not to repeat any styling declarations
+unless absolutely necessary. For example, if you have multiple
+elements that have a background-color: white then create a multi-
+class selector that takes all of those elements and groups them
+together into one style declaration/selector. For example:
+
+.btn-white,
+.bg-white,
+.random_selector,
+.header-top { background-color: white;
+}
+
+Please note that we're using Bourbon and Bitters for styling
+elements, but we're using SASSGrid for all grid layouts.
+
+* _extends.scss *
+This is a place to define commonly used attributes so they can be
+easily reused in other places using an @extend call. They should
+be prefixed with a % so they are easily recognizable.
+
+* _calls.scss *
+This is where we define HIGHLY reused properties. Examples include
+any selectors that have a position attribute, clearfix, display
+block, display inline-block, etc.
+
+* _backgrounds.scss *
+All background-color or background-image attributes and any other
+background related selectors should all be housed here.
+
+* _borders.scss *
+All border declarations should be defined here. Remember to attach
+multiple selectors to the same style declaration and setup any
+helpful variables to ensure consistant borders throughout the site.
+
+* _typography.scss *
+All typography-related styling should be here including font-family,
+font-weight, font-style, line-height, color, etc.
+
+* _z-index.scss *
+Pretty self explanatory. This is where we'll store all z-index
+properties. This will make it much easier to track down any layer
+ordering issues that we come across.
+
+* _layout.scss *
+Any and all layout-related styling should be placed here. This
+includes, but is not limited to columns/grid elements, margin,
+padding, display, etc. We'll also be using this partial to store
+all z-index properties.
+
+* components/_*.scss *
+These partials are used to store styling for specific elements of the
+design. Examples include buttons, header, footer but the main
+emphasis is on items that are commonly repeated throughout the
+interface. We should be, whenever possible, trying to find a way to
+reuse styles instead of defining new, custom declarations for
+elements.
+
+* _effects.scss *
+The effects partial is where we'll store things like drop shadows,
+text shadows, border-radius', opacity settings (though background
+transparency should be stored in the backgrounds partial) and other
+css "effects". Again, selectors should be added to existing style
+declarations whenever possible instead of creating new declarations.
+
+*/
